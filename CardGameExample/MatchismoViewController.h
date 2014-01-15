@@ -10,4 +10,8 @@
 
 @interface MatchismoViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
+
+- (void)updateUI;
+
 @end
