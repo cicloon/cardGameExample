@@ -79,8 +79,4 @@
     return background;
 }
 
-
-
-
-
 @end

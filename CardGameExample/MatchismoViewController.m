@@ -7,8 +7,8 @@
 //
 
 #import "MatchismoViewController.h"
+#import "HistoryViewController.h"
 #import "PlayingCardDeck.h"
-
 #import "CardMatchingGame.h"
 
 @interface MatchismoViewController ()
@@ -187,6 +187,15 @@
 - (void)updateScore:(int)score {
     
     [self.scoreLabel setText: [NSString stringWithFormat:@"Score: %d", score]];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"segueToHistory"]) {
+        if ([segue.destinationViewController isKindOfClass: [HistoryViewController class]] ) {
+            HistoryViewController *hvc = segue.destinationViewController;
+            hvc.movementHistory = self.movementHistory;
+        }
+    }
 }
 
 

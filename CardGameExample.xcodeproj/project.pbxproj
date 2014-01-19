@@ -11,6 +11,8 @@
 		57ACB2911882A900006D4619 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2901882A900006D4619 /* SetCardDeck.m */; };
 		57ACB2941882FA19006D4619 /* SetMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2931882FA19006D4619 /* SetMatchingGame.m */; };
 		57ACB2971882FFB7006D4619 /* SetGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2961882FFB7006D4619 /* SetGameViewController.m */; };
+		57ACB2991888784B006D4619 /* CardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2981888784B006D4619 /* CardTest.m */; };
+		57ACB29C188B0E19006D4619 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB29B188B0E19006D4619 /* HistoryViewController.m */; };
 		57E5812B1851FC74007C4900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5812A1851FC74007C4900 /* Foundation.framework */; };
 		57E5812D1851FC74007C4900 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5812C1851FC74007C4900 /* CoreGraphics.framework */; };
 		57E5812F1851FC74007C4900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5812E1851FC74007C4900 /* UIKit.framework */; };
@@ -51,6 +53,9 @@
 		57ACB2931882FA19006D4619 /* SetMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMatchingGame.m; sourceTree = "<group>"; };
 		57ACB2951882FFB7006D4619 /* SetGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameViewController.h; sourceTree = "<group>"; };
 		57ACB2961882FFB7006D4619 /* SetGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameViewController.m; sourceTree = "<group>"; };
+		57ACB2981888784B006D4619 /* CardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardTest.m; path = Models/CardTest.m; sourceTree = "<group>"; };
+		57ACB29A188B0E19006D4619 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		57ACB29B188B0E19006D4619 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		57E581271851FC74007C4900 /* CardGameExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGameExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E5812A1851FC74007C4900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57E5812C1851FC74007C4900 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +146,8 @@
 			children = (
 				57E5816518523A98007C4900 /* Models */,
 				57E5813C1851FC74007C4900 /* Main.storyboard */,
+				57ACB29A188B0E19006D4619 /* HistoryViewController.h */,
+				57ACB29B188B0E19006D4619 /* HistoryViewController.m */,
 				57E581401851FC74007C4900 /* MatchismoViewController.m */,
 				57E5813F1851FC74007C4900 /* MatchismoViewController.h */,
 				57ACB2961882FFB7006D4619 /* SetGameViewController.m */,
@@ -167,6 +174,7 @@
 		57E5814F1851FC74007C4900 /* CardGameExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				57ACB2981888784B006D4619 /* CardTest.m */,
 				57E581551851FC74007C4900 /* CardGameExampleTests.m */,
 				57E581501851FC74007C4900 /* Supporting Files */,
 			);
@@ -309,6 +317,7 @@
 				57E5813B1851FC74007C4900 /* MatchismoAppDelegate.m in Sources */,
 				57E581411851FC74007C4900 /* MatchismoViewController.m in Sources */,
 				57E581711866FA90007C4900 /* CardMatchingGame.m in Sources */,
+				57ACB29C188B0E19006D4619 /* HistoryViewController.m in Sources */,
 				57ACB2911882A900006D4619 /* SetCardDeck.m in Sources */,
 				57E5816E18537257007C4900 /* PlayingCardDeck.m in Sources */,
 				57E581371851FC74007C4900 /* main.m in Sources */,
@@ -323,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E581561851FC74007C4900 /* CardGameExampleTests.m in Sources */,
+				57ACB2991888784B006D4619 /* CardTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
